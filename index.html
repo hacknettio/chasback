@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chasbeck Car Rental - Premium car rental services with a wide range of vehicles from sedans to luxury SUVs.">
+    <title>Chasbeck Car Rental | Premium Car Rental Services</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Flatpickr Date Picker -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="/assets/chasbeck-logo.png" alt="Chasbeck Car Rental Logo">
+                    <div class="logo-text">CHASBECK <span>Car Rental</span></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#fleet">Fleet</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#sedans">Sedans & Compact</a></li>
+                            <li><a href="#suvs">Trucks & SUVs</a></li>
+                            <li><a href="#premium">Premium SUVs & MPVs</a></li>
+                            <li><a href="#luxury-sedans">Luxury Sedans</a></li>
+                            <li><a href="#luxury-suvs">Luxury SUVs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li class="dropdown">
+                        <a href="#services">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#airport-transfer">Airport Transfer</a></li>
+                            <li><a href="#corporate">Corporate Rental</a></li>
+                            <li><a href="#chauffeur">Chauffeur Service</a></li>
+                            <li><a href="#wedding">Wedding Cars</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#locations">Locations</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#downtown">Downtown Office</a></li>
+                            <li><a href="#airport">Airport Branch</a></li>
+                            <li><a href="#suburbs">Suburban Locations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <button class="mode-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="#book-now" class="btn btn-primary">Book Now</a>
+                    <button class="hamburger" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide hero-slide" style="background-image: url('/assets/6.jpg');"></div>
+                <div class="swiper-slide hero-slide" style="background-image: url('/assets/7.jpg');"></div>
+                <div class="swiper-slide hero-slide" style="background-image: url('/assets/2.jpg');"></div>
+                <div class="swiper-slide hero-slide" style="background-image: url('/assets/aq.jpg');"></div>
+                <div class="swiper-slide hero-slide" style="background-image: url('/assets/5.jpg');"></div>
+                <div class="swiper-slide hero-slide" style="background-image: url('/assets/4.jpg');"></div>
+            
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right">
+                <h1 class="hero-title">Premium Car Rental Experience</h1>
+                <p class="hero-subtitle">Explore our fleet of luxury and economy vehicles for your perfect journey. Competitive rates, flexible rental options, and exceptional service.</p>
+                <div class="hero-buttons">
+                    <a href="#fleet" class="btn btn-primary btn-lg">Explore Fleet</a>
+                    <a href="#book-now" class="btn btn-outline btn-lg">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Search Form -->
+    <div id="book-now" class="search-form-container">
+        <div class="container">
+            <div class="search-form" data-aos="fade-up">
+                <h3 class="search-form-title">CHASBECK CAR RENTAL</h3>
+                
+            </div>
+        </div>
+    </div>
+
+                
+    <!-- Fleet Section -->
+    <section id="fleet" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Our Fleet</h2>
+            <div class="fleet-tabs" data-aos="fade-up">
+                <button class="fleet-tab active" data-tab="sedans">Sedans & Compact</button>
+                <button class="fleet-tab" data-tab="suvs">Trucks & SUVs</button>
+                <button class="fleet-tab" data-tab="premium">Premium SUVs & MPVs</button>
+                <button class="fleet-tab" data-tab="luxury-sedans">Luxury Sedans</button>
+                <button class="fleet-tab" data-tab="luxury-suvs">Luxury SUVs</button>
+            </div>
+
+            <!-- Sedans & Compact -->
+            <div class="fleet-content active" id="sedans" data-aos="fade-up">
+                <div class="fleet-grid">
+                    <!-- Car 1 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/AQUA.JPG" alt="Toyota AQUA" loading="lazy">
+                            <div class="car-badge">Best Seller</div>
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Toyota Aqua</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5 (128 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 2 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 25km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Gasoline
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$50</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Toyota Aqua">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Car 2 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/VITZ.jpg" alt="Honda Civic" loading="lazy">
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Toyota Vitz</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>4.0 (96 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 2 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 23km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Petrol
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$50</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Toyota Vitz">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Car 3 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/AVENSIS.jpg" alt="Hyundai Elantra" loading="lazy">
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Toyota Avensis</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.9 (78 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 2 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 19.5km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Petrol
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$50</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Toyota Avensis">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trucks & SUVs -->
+            <div class="fleet-content" id="suvs">
+                <div class="fleet-grid">
+                    <!-- Car 1 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/HILUX.png" alt="Toyota RAV4" loading="lazy">
+                            <div class="car-badge">Popular</div>
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Toyota Hilux D4D</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5 (112 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 4 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Manual
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 12km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$120</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Toyota Hilux D4D">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Car 2 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/FORTUNER.png" alt="Honda CR-V" loading="lazy">
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Toyota Fortuner D4D</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>4.0 (87 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 7 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 4 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 12km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$120</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Toyota Fortuner D4D">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Car 3 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="assets/HILUX GD6.png" alt="Ford F-150" loading="lazy">
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Toyota Hilux GD6</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.8 (95 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 6 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 13km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$120</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Toyota Hilux GD6">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Premium SUVs & MPVs -->
+            <div class="fleet-content" id="premium">
+                <div class="fleet-grid">
+                    <!-- Car 1 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/FORTUNER.png" alt="BMW X5" loading="lazy">
+                            <div class="car-badge">Premium</div>
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Toyota Fortuner GD6</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.9 (68 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 4 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Manual
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 14km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$200</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Toyota Fortuner GD6">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Car 2 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/QUANTUM.jpg" alt="Mercedes-Benz GLE" loading="lazy">
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Toyota Hiace</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5 (52 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 4 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 13km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$140</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Toyota Hiace">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Car 3 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/RAGIUS.jpeg" alt="Audi Q7" loading="lazy">
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Toyota Ragius Quantum</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.8 (45 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 7 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 5 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 12km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$140</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Toyota Ragius Quantum">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Luxury Sedans -->
+            <div class="fleet-content" id="luxury-sedans">
+                <div class="fleet-grid">
+                    <!-- Car 1 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/E250.png" alt="Mercedes-Benz E-Class" loading="lazy">
+                            <div class="car-badge">Luxury</div>
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Mercedes-Benz E-250</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>5.0 (42 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 3 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 15km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$150</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Mercedes-Benz E-250">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Car 2 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/C300.png" alt="BMW 5 Series" loading="lazy">
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Mercedes-Benz E-300</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5 (38 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 3 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 16km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$150</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Mercedes-Benz E-300">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Car 3 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/C-CLASS.png" alt="Audi A6" loading="lazy">
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Mercedes-Benz C200</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.9 (35 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 3 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 17km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$150</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Mercedes-Benz C200">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Luxury SUVs -->
+            <div class="fleet-content" id="luxury-suvs">
+                <div class="fleet-grid">
+                    <!-- Car 1 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/deals-13.png" alt="Range Rover Sport" loading="lazy">
+                            <div class="car-badge">Premium</div>
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Toyota Land Cruiser V8</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>5.0 (32 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 4 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 10km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$450</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Toyota Land Cruiser V8">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Car 2 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/deals-14.png" alt="Porsche Cayenne" loading="lazy">
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Mercedes-Benz GLE</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5 (28 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 4 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 9km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$450</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Mercedes-Benz GLE">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Car 3 -->
+                    <div class="car-card">
+                        <div class="car-image">
+                            <img src="/assets/benzgls.JPG" alt="Mercedes-Benz GLS" loading="lazy">
+                        </div>
+                        <div class="car-content">
+                            <h3 class="car-title">Mercedes-Benz GLS</h3>
+                            <div class="car-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.9 (25 reviews)</span>
+                            </div>
+                            <div class="car-features">
+                                <div class="car-feature">
+                                    <i class="fas fa-user"></i> 7 People
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-suitcase"></i> 5 Bags
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-gas-pump"></i> 11km/l
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-feature">
+                                    <i class="fas fa-tint"></i> Diesel
+                                </div>
+                            </div>
+                            <div class="car-price">
+                                <div>
+                                    <div class="price-amount">$450</div>
+                                    <div class="price-period">per day</div>
+                                </div>
+                                <button class="btn btn-primary car-btn rent-now-btn" data-car="Mercedes-Benz GLS">Rent Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section how-it-works">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">How It Works</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3 class="step-title">Choose Your Car</h3>
+                        <p>Browse our extensive fleet and select the perfect vehicle for your needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="step-title">Pick Date & Location</h3>
+                        <p>Select your preferred pickup and return dates and locations.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <h3 class="step-title">Book & Pay</h3>
+                        <p>Complete your booking with our secure payment system. We accept all major credit cards.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <div class="step-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h3 class="step-title">Enjoy Your Ride</h3>
+                        <p>Pick up your car and enjoy your journey with our 24/7 roadside assistance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="500">
+                <a href="#book-now" class="btn btn-primary btn-lg">Book Your Car Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="section-title" style="text-align: left;">About Chasbeck Car Rental</h2>
+                    <p>Chasbeck Car Rental has been providing premium car rental services for over 15 years. We pride ourselves on offering a wide range of vehicles to suit every need and budget, from economy cars to luxury vehicles.</p>
+                    <p>Our mission is to provide exceptional customer service and a hassle-free rental experience. We understand that every customer has unique needs, which is why we offer flexible rental options and competitive rates.</p>
+                    <p>With multiple locations across the city, including airport terminals and downtown offices, we make it convenient for you to pick up and drop off your rental car.</p>
+                    <div class="mt-4">
+                        <h4>Why Choose Us:</h4>
+                        <ul style="list-style: none; padding-left: 0;">
+                            <li><i class="fas fa-check-circle" style="color: var(--primary); margin-right: 10px;"></i> Extensive fleet of well-maintained vehicles</li>
+                            <li><i class="fas fa-check-circle" style="color: var(--primary); margin-right: 10px;"></i> Competitive rates with no hidden fees</li>
+                            <li><i class="fas fa-check-circle" style="color: var(--primary); margin-right: 10px;"></i> Flexible rental periods (hourly, daily, weekly, monthly)</li>
+                            <li><i class="fas fa-check-circle" style="color: var(--primary); margin-right: 10px;"></i> 24/7 customer support and roadside assistance</li>
+                            <li><i class="fas fa-check-circle" style="color: var(--primary); margin-right: 10px;"></i> Multiple convenient locations</li>
+                            <li><i class="fas fa-check-circle" style="color: var(--primary); margin-right: 10px;"></i> Free cancellation up to 24 hours before pickup</li>
+                        </ul>
+                    </div>
+                    <div class="mt-4">
+                        <a href="#contact" class="btn btn-primary">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div style="position: relative; padding: 20px; margin-top: 50px;">
+                        <img src="/assets/fleet3.jpg" alt="About Chasbeck Car Rental" style="width: 100%; border-radius: var(--border-radius); box-shadow: var(--box-shadow);" loading="lazy">
+                        <img src="/assets/fleet2.jpg" alt="Chasbeck Car Rental Fleet" style="position: absolute; width: 60%; bottom: -30px; right: -30px; border-radius: var(--border-radius); box-shadow: var(--box-shadow); border: 5px solid var(--background);" loading="lazy">
+                        <div style="position: absolute; top: -30px; left: -30px; background-color: var(--primary); color: var(--gray-900); padding: 20px; border-radius: var(--border-radius); box-shadow: var(--box-shadow);">
+                            <h3 style="margin-bottom: 0; font-size: 2.5rem;">15+</h3>
+                            <p style="margin-bottom: 0; color: var(--gray-900);">Years of Excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">What Our Customers Say</h2>
+            <div class="swiper testimonial-swiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <p>I've rented from Chasbeck multiple times, and each experience has been fantastic. The cars are always clean and well-maintained, and the staff is incredibly helpful. The online booking process is smooth and hassle-free.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://picsum.photos/id/1012/100/100" alt="Sarah Johnson" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Othniel</h4>
+                                    <p>Business Traveler</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <p>Rented a luxury SUV for a family road trip, and it was perfect! The vehicle was spotless, and the pickup process was quick. The customer service team went above and beyond to ensure we had everything we needed for our journey.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://picsum.photos/id/1010/100/100" alt="Florence" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Florence</h4>
+                                    <p>Family Traveler</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <p>As a frequent business traveler, I appreciate the consistency and reliability of Chasbeck Car Rental. Their airport pickup service is prompt, and the cars are always in excellent condition. Their loyalty program offers great benefits too!</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://picsum.photos/id/1011/100/100" alt="Tapiwanashe" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Tapiwanashe</h4>
+                                    <p>Corporate Executive</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <p>I rented a compact car for a weekend getaway, and the experience was seamless from start to finish. The pricing was transparent with no hidden fees, and the fuel policy was fair. I'll definitely be using Chasbeck again!</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://picsum.photos/id/1013/100/100" alt="Kundainashe" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Kundainashe</h4>
+                                    <p>Weekend Traveler</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Main Office</h4>
+                                <p>24 Lawson Ave, Milton Park, <br>Harare, Zimbabwe</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+263779405787<br>+263772457121<br>+263717114777</p>          
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>chasbeckcarrental@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Working Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 8:00 PM<br>Saturday - Sunday: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-form">
+                                <h3 class="mb-4">Send Us a Message</h3>
+                                <form action="chasbeckcarrental@gmail.com" method="post" enctype="text/plain">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Full Name</label>
+                                        <input type="text" id="name" name="name" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" id="email" name="email" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" id="subject" name="subject" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-4 mt-md-0">
+                            <div class="map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.874208221978!2d31.03637277508036!3d-17.79820198309087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a5cba0e5a5a9%3A0x9f7a1a7e5b7a1b7e!2s24%20Lawson%20Ave%2C%20Milton%20Park%2C%20Harare!5e0!3m2!1sen!2sus!4v1626189335893!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content" data-aos="fade-up">
+                <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+                <p class="newsletter-subtitle">Stay updated with our latest offers, new additions to our fleet, and exclusive promotions.</p>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Your Email Address" required>
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <div class="footer-logo">
+                        <img src="/assets/chasbeck-logo.PNG" alt="Chasbeck Car Rental Logo">
+                    </div>
+                    <p class="footer-text">Chasbeck Car Rental provides premium car rental services with a wide range of vehicles to suit every need and budget. Our mission is to deliver exceptional customer service and a hassle-free rental experience.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="footer-links">
+                                <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                                <li><a href="#fleet"><i class="fas fa-chevron-right"></i> Our Fleet</a></li>
+                                <li><a href="#how-it-works"><i class="fas fa-chevron-right"></i> How It Works</a></li>
+                                <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                                <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Testimonials</a></li>
+                                <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="footer-links">
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> FAQs</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Terms & Conditions</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-left">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>24 Lawson Ave, Milton Park, <br>Harare, Zimbabwe</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+263779405787<br>+263772457121</span>     
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>chasbeckcarrental@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Monday - Friday: 8:00 AM - 8:00 PM<br>Saturday - Sunday: 9:00 AM - 6:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Chasbeck Car Rental. All Rights Reserved. Designed with <i class="fas fa-heart" style="color: var(--primary);"></i> by <a href="https://github.com/hacknettio">Yteewrld</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div class="modal" id="booking-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Book Your Car</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="booking-steps">
+                    <div class="booking-step active" data-step="1">
+                        <div class="step-icon">1</div>
+                        <div class="step-label">Select Car</div>
+                    </div>
+                    <div class="booking-step" data-step="2">
+                        <div class="step-icon">2</div>
+                        <div class="step-label">Date & Location</div>
+                    </div>
+                    <div class="booking-step" data-step="3">
+                        <div class="step-icon">3</div>
+                        <div class="step-label">Your Details</div>
+                    </div>
+                </div>
+
+                <!-- Step 1: Select Car -->
+                <div class="booking-step-content active" data-step="1">
+                    <div class="car-details">
+                        <div class="car-details-image">
+                            <img src="/assets/fleet2.jpg" alt="Selected Car" id="selected-car-image">
+                        </div>
+                        <div class="car-details-info">
+                            <h3 class="car-details-title" id="selected-car-title">Toyota Aqua</h3>
+                            <div class="car-specs">
+                                <div class="car-spec">
+                                    <i class="fas fa-user"></i> 5 People
+                                </div>
+                                <div class="car-spec">
+                                    <i class="fas fa-suitcase"></i> 2 Bags
+                                </div>
+                                <div class="car-spec">
+                                    <i class="fas fa-cog"></i> Automatic
+                                </div>
+                                <div class="car-spec">
+                                    <i class="fas fa-gas-pump"></i> 25km/l
+                                </div>
+                                <div class="car-spec">
+                                    <i class="fas fa-snowflake"></i> A/C
+                                </div>
+                                <div class="car-spec">
+                                    <i class="fas fa-tint"></i> Gasoline
+                                </div>
+                            </div>
+                            <div class="car-price-details">
+                                <div class="price-row">
+                                    <span>Base Rate:</span>
+                                    <span>$50 per day</span>
+                                </div>
+                                <div class="price-row">
+                                    <span>Insurance:</span>
+                                    <span>$10 per day</span>
+                                </div>
+                                <div class="price-row">
+                                    <span>Taxes & Fees:</span>
+                                    <span>$8 per day</span>
+                                </div>
+                                <div class="price-row total">
+                                    <span>Total per day:</span>
+                                    <span id="total-price">$68</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2: Date & Location -->
+                <div class="booking-step-content" data-step="2">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="modal-pickup-location" class="form-label">Pickup Location</label>
+                                    <select id="modal-pickup-location" class="form-control">
+                                        <option value="">Select location</option>
+                                        <option value="airport">Airport Terminal</option>
+                                        <option value="downtown">Downtown Office</option>
+                                        <option value="north">North Branch</option>
+                                        <option value="east">East Branch</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="modal-dropoff-location" class="form-label">Drop-off Location</label>
+                                    <select id="modal-dropoff-location" class="form-control">
+                                        <option value="">Select location</option>
+                                        <option value="airport">Airport Terminal</option>
+                                        <option value="downtown">Downtown Office</option>
+                                        <option value="north">North Branch</option>
+                                        <option value="east">East Branch</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="modal-pickup-date" class="form-label">Pickup Date</label>
+                                    <input type="text" id="modal-pickup-date" class="form-control datepicker" placeholder="MM/DD/YYYY">
+                                </div>
+                            </div>
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="modal-pickup-time" class="form-label">Pickup Time</label>
+                                    <select id="modal-pickup-time" class="form-control">
+                                        <option value="09:00">9:00 AM</option>
+                                        <option value="10:00">10:00 AM</option>
+                                        <option value="11:00">11:00 AM</option>
+                                        <option value="12:00">12:00 PM</option>
+                                        <option value="13:00">1:00 PM</option>
+                                        <option value="14:00">2:00 PM</option>
+                                        <option value="15:00">3:00 PM</option>
+                                        <option value="16:00">4:00 PM</option>
+                                        <option value="17:00">5:00 PM</option>
+                                        <option value="18:00">6:00 PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="modal-dropoff-date" class="form-label">Drop-off Date</label>
+                                    <input type="text" id="modal-dropoff-date" class="form-control datepicker" placeholder="MM/DD/YYYY">
+                                </div>
+                            </div>
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="modal-dropoff-time" class="form-label">Drop-off Time</label>
+                                    <select id="modal-dropoff-time" class="form-control">
+                                        <option value="09:00">9:00 AM</option>
+                                        <option value="10:00">10:00 AM</option>
+                                        <option value="11:00">11:00 AM</option>
+                                        <option value="12:00">12:00 PM</option>
+                                        <option value="13:00">1:00 PM</option>
+                                        <option value="14:00">2:00 PM</option>
+                                        <option value="15:00">3:00 PM</option>
+                                        <option value="16:00">4:00 PM</option>
+                                        <option value="17:00">5:00 PM</option>
+                                        <option value="18:00">6:00 PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">
+                                <input type="checkbox" style="margin-right: 10px;">
+                                Add additional driver (+$15/day)
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">
+                                <input type="checkbox" style="margin-right: 10px;">
+                                GPS Navigation System (+$8/day)
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">
+                                <input type="checkbox" style="margin-right: 10px;">
+                                Child Safety Seat (+$12/day)
+                            </label>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Step 3: Your Details -->
+                <div class="booking-step-content" data-step="3">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="first-name" class="form-label">First Name</label>
+                                    <input type="text" id="first-name" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="last-name" class="form-label">Last Name</label>
+                                    <input type="text" id="last-name" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="email-address" class="form-label">Email Address</label>
+                                    <input type="email" id="email-address" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="phone-number" class="form-label">Phone Number</label>
+                                    <input type="tel" id="phone-number" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="license-number" class="form-label">Driver's License Number</label>
+                            <input type="text" id="license-number" class="form-control" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="birth-date" class="form-label">Date of Birth</label>
+                                    <input type="date" id="birth-date" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-col">
+                                <div class="form-group">
+                                    <label for="license-expiry" class="form-label">License Expiry Date</label>
+                                    <input type="date" id="license-expiry" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address" class="form-label">Address</label>
+                            <textarea id="address" class="form-control" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">
+                                <input type="checkbox" style="margin-right: 10px;" required>
+                                I agree to the <a href="#" style="color: var(--primary);">Terms and Conditions</a>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">
+                                <input type="checkbox" style="margin-right: 10px;">
+                                I would like to receive promotional emails and updates
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline modal-prev" style="display: none;">Previous</button>
+                <button class="btn btn-primary modal-next">Next</button>
+                <button class="btn btn-secondary modal-book" style="display: none;">Complete Booking</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Buttons -->
+    <div class="scroll-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <a href="https://wa.me/+263779405787" class="whatsapp-btn" target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="tel:+263779405787" class="call-btn">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="script.js"></script>
+</body>
+</html>
